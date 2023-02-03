@@ -35,7 +35,7 @@ Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  stats: PropTypes.objectOf(PropTypes.number.isRequired),
+  stats: PropTypes.objectOf(PropTypes.number.isRequired).isRequired,
     
 };
 

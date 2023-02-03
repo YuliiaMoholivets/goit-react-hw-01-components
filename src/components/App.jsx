@@ -18,8 +18,9 @@ export default function App() {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-       />
-      <Statistics data={data} />
+      />
+      <Statistics stats={data} title={'Upload stats'} />
+      <Statistics stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={items} />
     </div>
